@@ -4,12 +4,9 @@ import { connect } from "cloudflare:sockets";
 // CONSTANTS & DEFAULT CONFIGURATION
 // ============================================
 const DEFAULT_LOCAL_PROXIES = [
-  "cdn-b100.xn--b6gac.eu.org",
-  "cdn.xn--b6gac.eu.org",
-  "bpb.yousef.isegaro.com",
-  "icook.hk",
-  "icook.tw",
-  "www.visa.com.sg"
+  "lelouch.abrdns.com",
+  "blacknight.abrdns.com",
+  "privacy.bbroot.com",
 ];
 
 const DEFAULT_DOH_URL = "https://cloudflare-dns.com/dns-query";
