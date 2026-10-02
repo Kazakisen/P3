@@ -1,4 +1,4 @@
-name = "uprotocol"
+name = "sentes3"
 main = "_worker.js"
 compatibility_date = "2024-03-20"
 compatibility_flags = [ "nodejs_compat" ]
@@ -7,7 +7,7 @@ keep_vars = true
 
 [vars]
 WS_PATH = "galaxy-tunnel"
-PROXYIP = "cdn-b100.xn--b6gac.eu.org"
-PROXY_LIST_URL = "https://raw.githubusercontent.com/proxzero/galaxy-subdomain/refs/heads/main/PROXYIP.txt"
+PROXYIP = "lelouch.abrdns.com"
+#PROXY_LIST_URL = ""
 DNS_RESOLVER_URL = "https://cloudflare-dns.com/dns-query"
 RATE_LIMIT_PER_MINUTE = "60"
